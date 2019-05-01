@@ -21,7 +21,6 @@ body {
 
 h1,
 h2,
-h3,
 p {
   margin-bottom: 20px;
 }
@@ -32,15 +31,13 @@ p:last-child {
 }
 
 h1,
-h2,
-h3 {
+h2{
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
 }
 
-h2,
-h3 {
+h2 {
   font-size: 22px;
 }
 
@@ -105,7 +102,7 @@ footer {
 
 
 
-h3, h2 {
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -148,8 +145,13 @@ h3, h2 {
   border: 0 none;
   opacity: 0.8;
 }
-
-.work h3 {
+.work a {
+  color: white;
+  text-decoration: none;
+  background-color: #4aaaa5;
+  font-size: x-large;
+}
+/* .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -161,7 +163,7 @@ h3, h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
+} */
 
 .auth-image {
   float: left;
